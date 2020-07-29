@@ -1,0 +1,30 @@
+.dataUsers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.bordered {
+    border: solid 1px pink;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.borderResultUser {
+    border: solid 1px green;
+    border-radius: 5px;
+}
+
+.paddingDivs {
+    padding: 10px;
+}

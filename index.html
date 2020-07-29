@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Pesquisa de usuários</title>
+    <meta charset="utf-8">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="./css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Pesquisa de usuários</h1>
+
+      <div class="paddingDivs flex-row">
+        <input type="text" id="inputFilter" />
+        <button id="buttonFilter" class="waves-effect waves-light btn" style="margin-left: 10px">Buscar</button>
+      </div>
+
+      <div id="spinner" class="center">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <span>Aguarde</span>
+      </div>
+
+      <div class='dataUsers'>
+        <div class='flex-row borderResultUser' id="user">Nenhum usuario encontrado</div>
+        <div class='borderResultUser' id="statistic">Nada ser exibido</div>
+      </div>
+    </div> 
+    
+
+    <script defer src="./js/script.js"></script>
+
+    
+  </body>
+</html>
